@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <title>BMI-calculator</title>
+  <title>BMI Calculator</title>
 </head>
 <body>
   <div class="navbar">
@@ -13,7 +13,7 @@
   </div>
   <div class="container">
     <form id="bmi-form">
-      <h1>BMI calculator</h1>
+      <h1>BMI Calculator</h1>
       <div class="form-group">
         <label for="weight">Weight (kg):</label>
         <input type="text" id="weight" placeholder="Enter your weight...">
@@ -25,7 +25,8 @@
       <button type="button" onclick="calculateBMI()">Calculate BMI</button>
     </form>
     <div id="result"></div>
-    <h2>BMI Categories</h2>
+    <div id="advice"></div>
+    <h2 id="bmi-categories">BMI Categories</h2>
     <table class="bmi-table">
       <tr>
         <th>BMI Range</th>
@@ -50,7 +51,7 @@
     </table>
   </div>
   <footer>
-    <p> BMI Calculator.</p>
+    <p>BMI Calculator.</p>
   </footer>
   <script src="script.js"></script>
 </body>
